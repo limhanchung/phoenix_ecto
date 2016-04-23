@@ -32,6 +32,6 @@ defmodule PhoenixEcto.Mixfile do
   defp deps do
     [{:phoenix_html, "~> 2.5", optional: true},
      {:poison, "~> 1.5 or ~> 2.0", optional: true},
-     {:ecto, "~> 2.0.0-rc"}]
+		 {:ecto, git: "https://github.com/limhanchung/ecto.git" },
   end
 end
